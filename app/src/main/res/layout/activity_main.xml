@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:gravity="center"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:text="Welcome to the MPDCoursework Traffic Application"
+        android:textColor="#0A0000"
+        android:textSize="28dp" />
+
+
+    <Button
+        android:id="@+id/Trafficbtn1"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="280dp"
+        android:text="Planned RoadWorks" />
+
+    <Button
+        android:id="@+id/Trafficbtn2"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Trafficbtn1"
+        android:layout_alignLeft="@+id/Trafficbtn1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="140dp"
+        android:text="All Roadworks" />
+
+    <Button
+        android:id="@+id/Trafficbtn3"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Trafficbtn1"
+        android:layout_alignLeft="@+id/Trafficbtn1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="205dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginBottom="280dp"
+        android:text="Current Incidents" />
+
+    <Button
+        android:id="@+id/exitbutton"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Trafficbtn1"
+        android:layout_alignLeft="@+id/Trafficbtn1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="205dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginBottom="140dp"
+        android:text="Exit" />
+
+
+</RelativeLayout>
